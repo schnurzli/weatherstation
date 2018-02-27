@@ -1,0 +1,55 @@
+body{
+   background-color: #F9F4F1;
+   color: #000;
+}
+
+h1,h2,h3,h4,h5,h6{
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 700;
+   color: #AACCB1;
+}
+
+.big-font{ font-size: 3rem; }
+h4 span{font-size: 0.9rem; display:block; margin-top: 14px;}
+h4 i{float:right;}
+
+.card table{
+  width: 100%;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.navbar-brand {
+   color: #AAB3AB!important;
+}
+
+.navbar-brand-second { color: #AAB3AB; }
+
+.navbar{
+   margin-top: 50px;
+   margin-bottom: 30px;
+}
+
+.shadow{
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+
+a.wetter {
+color: #AACCB1!important;
+}
+
+a.kamera {
+color: #FFC48C!important;
+}
+
+a.impressum {
+color: #FC9D9A!important;
+}
+
+.card-columns{
+   margin-left: 15px;
+   margin-right: 15px;
+}

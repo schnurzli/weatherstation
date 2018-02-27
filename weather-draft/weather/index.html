@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <link href="https://fonts.googleapis.com/css?family=Montserrat:700|Roboto" rel="stylesheet">
+
+   <title>Wetterstation</title>
+   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+   <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+   <link rel="stylesheet" href="assets/css/stylesheet.css">
+   <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+</head>
+<body>
+
+   <div class="container">
+      <div class="row">
+         <div class="col-sm">
+            <nav class="navbar navbar-expand-md navbar-light bg-faded shadow">
+               <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+               </button>
+               <h1 class="navbar-brand mb-0">Wetterstation <span class="navbar-brand-second">St. Aegyd</span></h1>
+               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div class="navbar-nav">
+                     <a class="nav-item nav-link pull-right active wetter" href="#"><i class="fa fa-sun fa-spin"></i> Wetterstation</a>
+                     <a class="nav-item nav-link kamera" href="#"><i class="fas fa-video"></i> Kamera</a>
+                     <a class="nav-item nav-link impressum" href="#"><i class="fas fa-info"></i> Impressum</a>
+                  </div>
+               </div>
+            </nav>
+         </div>
+      </div><!-- end row -->
+
+
+      <div class="row">
+
+         <div class="card-columns">
+
+
+            <div class="card p-3">
+               <div class="card-block">
+                  <h4 class="card-title">Card title that wraps to a new line</h4>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+               </div>
+            </div>
+
+
+            <div class="card">
+               <div class="card-block p-3">
+                  <h4 class="card-title">Wetterverlauf</h4>
+                  <h6>Something</h6>
+               </div>
+               <canvas id="myChart"></canvas>
+            </div>
+
+
+
+
+            <div class="card card-inverse card-primary p-3 text-center">
+               <blockquote class="card-blockquote">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
+                  <footer>
+                     <small>
+                        Someone famous in <cite title="Source Title">Source Title</cite>
+                     </small>
+                  </footer>
+               </blockquote>
+            </div>
+
+
+
+            <div class="card">
+               <img class="card-img-top img-fluid" src="assets/images/whale.png" alt="Card image cap">
+               <div class="card-block p-3 text-center">
+                  <h4 class="card-title big-font">-10,3°C</h4>
+                  <p class="card-text">“Hey! What’s this thing suddenly coming towards me very fast? Very very fast. So big and flat and round, it needs a big wide sounding name like … ow … ound … round … ground! That’s it! That’s a good name – ground! I wonder if it will be friends with me?”</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+               </div>
+            </div>
+
+
+            <div class="card text-center p-3">
+               <div class="card-block">
+                  <h4 class="card-title">Card title</h4>
+                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+               </div>
+            </div>
+
+
+            <div class="card">
+               <img class="card-img img-fluid" src="#" alt="Card image">
+            </div>
+
+
+            <div class="card p-3 text-right">
+               <blockquote class="card-blockquote">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                  <footer>
+                     <small class="text-muted">
+                        Someone famous in <cite title="Source Title">Source Title</cite>
+                     </small>
+                  </footer>
+               </blockquote>
+            </div>
+
+
+            <div class="card p-3">
+               <div class="card-block">
+                  <h4 class="card-title"><i class="fa fa-sun-o"></i>18°C <span>Tolles Wetter</span></h4>
+                  <br/>
+                  <img src="assets/images/icon-cloudy.jpg" alt="..." class="img-thumbnail rounded-circle">
+                  <!--<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>-->
+                  <br /><br />
+                  <table>
+                     <tr class="time">
+                        <td>12:00</td>
+                        <td>13:00</td>
+                        <td>14:00</td>
+                        <td>15:00</td>
+                     </tr>
+                     <tr class="icon">
+                        <td><i class="fa fa-sun-o"></i></td>
+                        <td><i class="fa fa-sun-o"></i></td>
+                        <td><i class="fa fa-sun-o"></i></td>
+                        <td><i class="fa fa-bolt"></i></td>
+                     </tr>
+                     <tr class="temp">
+                        <td>18°C</td>
+                        <td>18.4°C</td>
+                        <td>17.9°C</td>
+                        <td>12.3°C</td>
+                     </tr>
+                  </table>
+               </div>
+            </div>
+
+
+         </div><!-- end card-column -->
+
+      </div><!-- end row -->
+   </div><!-- end container -->
+
+
+
+
+   <script src="assets/js/jquery.3.3.1.min.js"></script>
+   <script src="assets/js/chart.bundle.min.js"></script>
+   <script src="assets/js/bootstrap.bundle.min.js"></script>
+   <script src="assets/js/app.js"></script>
+</body>
+</html>

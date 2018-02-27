@@ -1,0 +1,64 @@
+Datenbank Struktur Wetterstation
+-----------------------------------------------------------------------------
+Bezeichnung				Feldtyp			Beispielwert			einheit
+wetter
+sg6LBZmvjPCcstmx
+
+db.klausgraber.com:3306
+
+-----------------------------------------------------------------------------
+
+
+protokoll
+Bezeichnung				Feldtyp			Beispielwert			einheit
+-----------------------------------------------------------------------------
+zeitstempel
+fehlermeldung
+
+
+
+Sensoren
+Bezeichnung				Feldtyp			Beispielwert			einheit
+-----------------------------------------------------------------------------
+sensorname
+sensornr
+einheitkurz
+einheitlang
+aktiv
+
+zeitstempel				datetime		24.02.2018 14:15		Datum, Uhrzeit
+temperaturinnen			dezimal			999,99					°C (Grad Celsius)
+temperaturaussen		dezimal			999,99					°C (Grad Celsius)
+temperaturaussen2		dezimal			999,99					°C (Grad Celsius)
+luftfeuchte				dezimal			999,99					% (Prozent)
+gefuehltetemp			dezimal			999,99					°C (Grad Celsius)
+taupunkt				dezimal			999,99					°C (Grad Celsius)
+luftdruck				dezimal			9999,99					hPa (Hektopascal)
+lichthelligkeit			dezimal			9999,99					lux
+-----------------------------------------------------------------------------
+todo
+-----------------------------------------------------------------------------
+uvindex					dezimal
+windrichtung			dezimal
+windgeschwindigkeit		dezimal
+regenmenge				dezimal
+radioaktivitaet			dezimal
+-----------------------------------------------------------------------------
+-----------------------------------------------------------------------------
+Tageswerte
+-----------------------------------------------------------------------------	
+Bezeichnung				Feldtyp			Beispielwert			einheit
+-----------------------------------------------------------------------------
+sonnenaufgang			datetime
+sonnenuntergang			datetime
+mondaufgang				datetime
+monduntergang			datetime
+-----------------------------------------------------------------------------
+-----------------------------------------------------------------------------
+Konfiguration
+-----------------------------------------------------------------------------	
+Bezeichnung				Feldtyp			Beispielwert			einheit
+-----------------------------------------------------------------------------
+seehoehe				dezimal			600						m (Meter)
+abrufintervall
+ 
